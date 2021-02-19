@@ -86,7 +86,7 @@ class MahasiswaController extends Controller
             'fakultas' =>'required'
         ]);
 
-        Mahasiswa::update($request->all());
+        $mahasiswa->update($request->all());
         return redirect()->route('mahasiswas.index')->with('success','Mahasiswa updated sucessfully');
     }
 

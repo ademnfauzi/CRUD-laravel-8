@@ -32,8 +32,8 @@
             <td>{{ $m->nama }}</td>
             <td class="text-center">
                 <form action="{{ route('mahasiswas.destroy',$m->npm) }}" method="POST">
-                    <a class="btn btn-primary btn-sm" href="{{ route('mahasiswas.edit',$m->npm) }}">Edit</a>
-                    <a class="btn btn-info btn-sm" href="{{ route('mahasiswas.show',$m->npm) }}">Show</a>
+                    <a class="btn btn-primary btn-sm" href="{{ route('mahasiswas.edit',$m->id) }}">Edit</a>
+                    <a class="btn btn-info btn-sm" href="{{ route('mahasiswas.show',$m->id) }}">Show</a>
  
  
  
